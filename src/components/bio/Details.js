@@ -5,7 +5,9 @@ class Details extends React.Component{
     return(
       <div>
         <h3>Details</h3>
-        <p><b>Name:</b> Kevin Yonzon</p>
+        <p><b>Name:</b><br></br>Kevin Yonzon</p>
+        <p><b>Age:</b><br></br>26</p>
+        <p><b>Location:</b><br></br>Irvine, California</p>
       </div>
     )
   }
