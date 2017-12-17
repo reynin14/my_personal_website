@@ -1,10 +1,15 @@
 import React from 'react'
+import AboutMe from './AboutMe'
+import NameIntro from './NameIntro'
+import Details from './Details'
 
 class BioContainer extends React.Component{
   render(){
     return(
       <div>
-        <p>test</p>
+        <NameIntro />
+        <AboutMe />
+        <Details />
       </div>
     )
   }
