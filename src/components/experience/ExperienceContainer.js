@@ -4,7 +4,7 @@ class ExperienceContainer extends React.Component{
   render(){
     return(
       <div>
-        <p>In ExperienceContainer</p>
+        <p>In Experience Container</p>
       </div>
     )
   }
