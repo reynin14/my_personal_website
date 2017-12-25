@@ -4,7 +4,7 @@ class WorkHistory extends React.Component {
   render(){
     return(
       <div>
-      <h2>Work History</h2>
+      <h2>Employment History</h2>
       <h4><b>Project Manager</b> - MFour Mobile Research - Irvine, CA - <i>July 2015 - August 2017</i></h4>
       <p>Completed over 300 projects and generated over $1,500,000 in revenue</p>
       <p>Built rapport with major client accounts such as ABC Television, Disney Interactive, Paramount Pictures, and Samsung Group</p>
