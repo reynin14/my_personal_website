@@ -7,6 +7,7 @@ import ContactContainer from './components/contact/ContactContainer'
 
 
 class App extends Component {
+
   render() {
     return (
       <div>
