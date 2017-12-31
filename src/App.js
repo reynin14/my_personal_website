@@ -3,6 +3,7 @@ import './App.css';
 import BioContainer from './components/bio/BioContainer'
 import ExperienceContainer from './components/experience/ExperienceContainer'
 import ContactContainer from './components/contact/ContactContainer'
+import ParallaxComponent from './components/parallax/ParallaxComponent'
 
 
 
@@ -14,6 +15,7 @@ class App extends Component {
         <BioContainer />
         <ExperienceContainer />
         <ContactContainer />
+        <ParallaxComponent />
       </div>
     );
   }
