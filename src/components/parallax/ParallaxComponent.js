@@ -43,7 +43,8 @@ class ParallaxComponent extends React.Component {
   }
 
   getTop = () => {
-    const top = this.props.top;
+    const top = this.state.top;
+
     return top.indexOf('%') > -1 ? window.innerHeight * (top.replace('%', '') / 100) : parseInt(top, 10);
   }
 
