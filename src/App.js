@@ -15,7 +15,7 @@ class App extends Component {
         <BioContainer />
         <ExperienceContainer />
         <ContactContainer />
-        <ParallaxComponent />
+        <ParallaxComponent props={{top: 10}}/>
       </div>
     );
   }
