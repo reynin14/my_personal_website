@@ -2,7 +2,8 @@ import React from 'react'
 import ParallaxComponent from './ParallaxComponent'
 import BioContainer from '../bio/BioContainer'
 import ExperienceContainer from '../experience/ExperienceContainer'
-import nycbackground from '../../images/nycbackground.jpg'
+import NameIntro from '../bio/NameIntro'
+
 
 class ParallaxContainer extends React.Component{
 
@@ -10,18 +11,20 @@ class ParallaxContainer extends React.Component{
     return(
       <div>
         <ParallaxComponent
-          image = {nycbackground}
         >
-
+          <NameIntro />
         </ParallaxComponent>
 
         <ParallaxComponent
+          top = '20%'
         >
           <BioContainer />
         </ParallaxComponent>
 
         <ParallaxComponent
           top = "65%"
+          speed = "0.2"
+          height = '50%'
         >
           <ExperienceContainer />
         </ParallaxComponent>

@@ -5,7 +5,7 @@ class ParallaxComponent extends React.Component {
     super(props)
 
     this.state = {
-      speed: this.props.speed || 1,
+      speed: this.props.speed || '1',
       width: '100%',
       height: this.props.height || '100%',
       top: this.props.top || '0%',
@@ -33,7 +33,7 @@ class ParallaxComponent extends React.Component {
 
   throttle(fn, wait) {
     let time = Date.now()
-  
+
     return function(){
       if ((time + wait - Date.now()) < 0){
         fn()

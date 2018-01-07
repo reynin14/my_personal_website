@@ -7,7 +7,6 @@ class BioContainer extends React.Component{
   render(){
     return(
       <div>
-        <NameIntro />
         <AboutMe />
         <Details />
       </div>
