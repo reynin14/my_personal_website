@@ -3,6 +3,7 @@ import ParallaxComponent from './ParallaxComponent'
 import BioContainer from '../bio/BioContainer'
 import ExperienceContainer from '../experience/ExperienceContainer'
 import NameIntro from '../bio/NameIntro'
+import NameIntroBackground from '../backgroundLayers/NameIntroBackground'
 
 
 class ParallaxContainer extends React.Component{
@@ -10,6 +11,11 @@ class ParallaxContainer extends React.Component{
   render(){
     return(
       <div>
+        <ParallaxComponent
+        >
+          <NameIntroBackground />
+        </ParallaxComponent>
+
         <ParallaxComponent
         >
           <NameIntro />
