@@ -12,6 +12,7 @@ class ParallaxContainer extends React.Component{
     return(
       <div>
         <ParallaxComponent
+          speed = '0.3'
         >
           <NameIntroBackground />
         </ParallaxComponent>
@@ -22,14 +23,14 @@ class ParallaxContainer extends React.Component{
         </ParallaxComponent>
 
         <ParallaxComponent
-          top = '20%'
+          top = '60%'
         >
           <BioContainer />
         </ParallaxComponent>
 
         <ParallaxComponent
-          top = "65%"
-          speed = "0.2"
+          top = '65%'
+          speed = '0.2'
           height = '50%'
         >
           <ExperienceContainer />

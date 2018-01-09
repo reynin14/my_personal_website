@@ -6,13 +6,13 @@ class NameIntroBackground extends React.Component{
     return(
       <div
         style={{
-        Width: '100%',
+        width: '100%',
         height: '100%',
         margin: '0 auto',
         backgroundImage: `url(${kyLeavesActual})`,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
-        objectPosition: '100% 150%'
+        backgroundPosition: '0% 60%'
         }}
       >
       </div>
