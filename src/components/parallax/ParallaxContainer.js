@@ -1,8 +1,7 @@
 import React from 'react'
 import ParallaxComponent from './ParallaxComponent'
-import BioContainer from '../bio/BioContainer'
-import ExperienceContainer from '../experience/ExperienceContainer'
-import NameIntro from '../bio/NameIntro'
+import IntroContainer from '../bio/IntroContainer'
+import NameIntro from '../backgroundLayers/NameIntro'
 import NameIntroBackground from '../backgroundLayers/NameIntroBackground'
 import Navbar from '../navbar/Navbar'
 
@@ -33,15 +32,13 @@ class ParallaxContainer extends React.Component{
           top = '100%'
           color = 'white'
         >
-          <BioContainer />
+          <IntroContainer />
         </ParallaxComponent>
 
         <ParallaxComponent
-          top = '65%'
-          speed = '0.2'
-          height = '50%'
+
         >
-          <ExperienceContainer />
+
         </ParallaxComponent>
       </div>
     )
