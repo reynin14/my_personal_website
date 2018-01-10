@@ -4,6 +4,7 @@ import BioContainer from '../bio/BioContainer'
 import ExperienceContainer from '../experience/ExperienceContainer'
 import NameIntro from '../bio/NameIntro'
 import NameIntroBackground from '../backgroundLayers/NameIntroBackground'
+import Navbar from '../navbar/Navbar'
 
 
 class ParallaxContainer extends React.Component{
@@ -11,6 +12,12 @@ class ParallaxContainer extends React.Component{
   render(){
     return(
       <div>
+        <ParallaxComponent
+          zIndex = '1'
+        >
+          <Navbar />
+        </ParallaxComponent>
+
         <ParallaxComponent
           speed = '0.1'
         >

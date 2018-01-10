@@ -11,7 +11,7 @@ class NameIntroBackground extends React.Component{
         backgroundImage: `url(${kyLeavesActual})`,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
-        backgroundPosition: '0% 120%'
+        backgroundPosition: '0% 100%'
         }}
       >
       </div>

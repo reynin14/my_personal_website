@@ -8,7 +8,7 @@ class FirstName extends React.Component{
         color: 'white',
         textShadow: '2px 2px black',
         position: 'absolute',
-        top: '23%',
+        top: '16%',
         left: '41%',
         width: '200px',
         height: '100px'
