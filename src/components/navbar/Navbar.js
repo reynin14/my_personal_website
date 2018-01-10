@@ -1,5 +1,6 @@
 import React from 'react'
 import NavLinks from './NavLinks'
+import Home from './Home'
 
 class Navbar extends React.Component{
   render(){
@@ -9,6 +10,7 @@ class Navbar extends React.Component{
         width: '100%',
         height: '8%'
       }}>
+        <Home />
         <NavLinks />
       </nav>
     )

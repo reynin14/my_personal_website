@@ -4,9 +4,11 @@ class Header extends React.Component{
   render(){
     return(
       <div style={{
-        textAlign: 'center'
+        textAlign: 'center',
+        padding: '100px',
+        fontSize: '40px'
       }}>
-        TEST TEST TEST
+        <strong>Ambitious // Self-Starter // Team-Player</strong>
       </div>
     )
   }

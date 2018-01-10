@@ -6,8 +6,10 @@ class NavLinks extends React.Component{
       <div style={{
         position: 'absolute',
         color: 'grey',
+        right: '0px',
+        top: '3%',
         right: '2%',
-        padding: '2% 0'
+        float: 'right'
       }}>
         Test
       </div>
