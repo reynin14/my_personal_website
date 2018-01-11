@@ -5,7 +5,9 @@ import Header from './Header'
 class IntroContainer extends React.Component{
   render(){
     return(
-      <div>
+      <div style={{
+        height: '100%'
+      }}>
         <Header />
         <AboutMeContainer />
       </div>

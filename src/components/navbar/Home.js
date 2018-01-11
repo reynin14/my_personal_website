@@ -9,7 +9,7 @@ class Home extends React.Component{
         left: '2%',
         top: '3%'
       }}>
-        Kevin Yonzon
+        <strong>Kevin Yonzon</strong>
       </div>
     )
   }
