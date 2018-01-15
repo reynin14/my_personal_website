@@ -8,7 +8,7 @@ class NameIntro extends React.Component{
         color: 'white',
         textShadow: '2px 2px black',
         position: 'absolute',
-        top: '16%',
+        top: '10%',
         left: '38%',
         width: '200px',
         height: '100px'

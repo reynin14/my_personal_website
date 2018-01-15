@@ -9,6 +9,7 @@ import Navbar from '../navbar/Navbar'
 
 import ResumeIntroBackground from '../backgroundLayers/ResumeIntroBackground'
 import ResumeIntro from '../backgroundLayers/ResumeIntro'
+import Resume from '../resume/Resume'
 
 
 class ParallaxContainer extends React.Component{
@@ -53,6 +54,19 @@ class ParallaxContainer extends React.Component{
           zIndex = '1'
         >
           <ResumeIntro />
+        </ParallaxComponent>
+
+        <ParallaxComponent
+          top = '300%'
+        >
+          <div style={{
+            height: '140%',
+            width: '100%',
+            backgroundColor: 'white'
+          }}>
+            <Resume />
+          </div>
+
         </ParallaxComponent>
       </div>
     )
