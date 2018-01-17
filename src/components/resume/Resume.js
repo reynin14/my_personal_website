@@ -5,10 +5,8 @@ import ResumeFile from '../../images/kyResume.jpg'
 class Resume extends React.Component{
   render(){
     return(
-      <div style={{
-        backgroundImage: `url(${ResumeFile})`
-      }}>
-
+      <div>
+        <img src={ResumeFile} alt='My Resume'/>
       </div>
     )
   }
