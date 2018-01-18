@@ -5,10 +5,10 @@ class Header extends React.Component{
     return(
       <div style={{
         textAlign: 'center',
-        padding: '100px',
+        padding: '50px',
         fontSize: '40px'
       }}>
-        <strong>Ambitious // Self-Starter // Team-Player</strong>
+        <strong>“Things work out best for those who make the best of how things work out.”<br></br><div style={{position: 'absolute', right: '5%'}}>- John Wooden</div></strong>
       </div>
     )
   }

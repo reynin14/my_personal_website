@@ -11,8 +11,6 @@ import ResumeIntroBackground from '../backgroundLayers/ResumeIntroBackground'
 import ResumeIntro from '../backgroundLayers/ResumeIntro'
 import ResumeContainer from '../resume/ResumeContainer'
 
-import SocialLinksContainer from '../socialLinks/SocialLinksContainer'
-
 class ParallaxContainer extends React.Component{
 
   render(){
@@ -69,7 +67,7 @@ class ParallaxContainer extends React.Component{
           color = 'black'
           height = '20%'
         >
-          <SocialLinksContainer />
+
         </ParallaxComponent>
       </div>
     )

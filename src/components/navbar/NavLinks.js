@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 class NavLinks extends React.Component{
   render(){
@@ -10,7 +11,8 @@ class NavLinks extends React.Component{
         right: '2%',
         float: 'right'
       }}>
-        Test
+        <Link to='/' style={{ textDecoration: 'none', color: 'grey', padding: '10px' }}><strong>Main</strong></Link>
+        <Link to='/contact' style={{ textDecoration: 'none', color: 'grey' }}><strong>Contact</strong></Link>
       </div>
     )
   }

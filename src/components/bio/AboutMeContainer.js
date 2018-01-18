@@ -12,7 +12,8 @@ class AboutMeContainer extends React.Component{
         columnCount: '2',
         columnGap: '20px',
         columnWidth: '50%',
-        display: 'flex'
+        display: 'flex',
+        padding: '30px'
       }}>
         <Details />
         <AboutMe />
