@@ -1,6 +1,8 @@
 import React from 'react'
+
 import ContactInfo from './ContactInfo'
 import ContactHeader from './ContactHeader'
+import SocialMediaLinksContainer from './SocialMediaLinksContainer'
 
 class ContactContainer extends React.Component{
   render(){
@@ -10,6 +12,7 @@ class ContactContainer extends React.Component{
       }}>
         <ContactHeader />
         <ContactInfo />
+        <SocialMediaLinksContainer />
       </div>
     )
   }

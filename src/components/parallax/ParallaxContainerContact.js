@@ -2,7 +2,7 @@ import React from 'react'
 import ParallaxComponent from './ParallaxComponent'
 
 import Navbar from '../navbar/Navbar'
-import SocialLinksContainer from '../socialLinks/SocialLinksContainer'
+
 import ContactIntro from '../backgroundLayers/ContactIntro'
 import ContactIntroBackground from '../backgroundLayers/ContactIntroBackground'
 
