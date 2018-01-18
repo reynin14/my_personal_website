@@ -1,6 +1,6 @@
 import React from 'react'
 
-class ContactIntro extends React.Component{
+class PortfolioIntro extends React.Component{
   render(){
     return(
       <div style={{
@@ -8,16 +8,15 @@ class ContactIntro extends React.Component{
         color: 'white',
         textShadow: '2px 2px black',
         position: 'absolute',
-        top: '19%',
-        left: '30%',
+        top: '20%',
+        left: '35%',
         width: '200px',
         height: '100px'
       }}>
-        <strong style={{padding: '19px'}}>Contact</strong>
-        <strong>Me</strong>
+        <strong>Portfolio</strong>
       </div>
     )
   }
 }
 
-export default ContactIntro
+export default PortfolioIntro

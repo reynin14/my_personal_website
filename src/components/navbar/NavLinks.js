@@ -12,7 +12,8 @@ class NavLinks extends React.Component{
         float: 'right'
       }}>
         <Link to='/' style={{ textDecoration: 'none', color: 'grey', padding: '10px' }}><strong>Main</strong></Link>
-        <Link to='/contact' style={{ textDecoration: 'none', color: 'grey' }}><strong>Contact</strong></Link>
+        <Link to='/portfolio' style={{ textDecoration: 'none', color: 'grey', padding: '10px' }}><strong>Portfolio</strong></Link>
+        <Link to='/contact' style={{ textDecoration: 'none', color: 'grey', padding: '10px' }}><strong>Contact</strong></Link>
       </div>
     )
   }
