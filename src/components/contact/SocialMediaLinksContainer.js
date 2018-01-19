@@ -15,15 +15,15 @@ class SocialMediaLinksContainer extends React.Component{
         left: '19%'
       }}>
         <div style={{padding: '10%'}}>
-          <a href='https://www.linkedin.com/in/kevin-yonzon/'><img src={linkedinIcon} alt='email icon' width='150' height='150'/></a>
+          <a href='https://www.linkedin.com/in/kevin-yonzon/'><img src={linkedinIcon} alt='linkedin icon' width='150' height='150'/></a>
         </div>
 
         <div style={{padding: '10%'}}>
-          <a href='https://github.com/reynin14'><img src={githubIcon} alt='email icon' width='150' height='150'/></a>
+          <a href='https://github.com/reynin14'><img src={githubIcon} alt='github icon' width='150' height='150'/></a>
         </div>
 
         <div style={{padding: '10%'}}>
-          <a href='https://www.instagram.com/aykevinrey/'><img src={instagramIcon} alt='email icon' width='150' height='150'/></a>
+          <a href='https://www.instagram.com/aykevinrey/'><img src={instagramIcon} alt='instagram icon' width='150' height='150'/></a>
         </div>
       </div>
     )

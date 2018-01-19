@@ -5,7 +5,11 @@ import ResumeFile from '../../images/kyResume.jpg'
 class Resume extends React.Component{
   render(){
     return(
-      <div>
+      <div style={{
+        position: 'absolute',
+        left: '20%',
+        top: '10%' 
+      }}>
         <img src={ResumeFile} alt='My Resume'/>
       </div>
     )

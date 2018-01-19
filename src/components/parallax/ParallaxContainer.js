@@ -15,7 +15,9 @@ class ParallaxContainer extends React.Component{
 
   render(){
     return(
-      <div>
+      <div style={{
+        overflow: 'hidden'
+      }}>
         <ParallaxComponent
           zIndex = '1'
         >

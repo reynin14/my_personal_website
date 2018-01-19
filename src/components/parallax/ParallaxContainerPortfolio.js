@@ -5,8 +5,7 @@ import Navbar from '../navbar/Navbar'
 
 import PortfolioIntroBackground from '../backgroundLayers/PortfolioIntroBackground'
 import PortfolioIntro from '../backgroundLayers/PortfolioIntro'
-
-import ContactContainer from '../contact/ContactContainer'
+import PortfolioContainer from '../portfolio/PortfolioContainer'
 
 class ParallaxContainerPortfolio extends React.Component{
 
@@ -36,7 +35,7 @@ class ParallaxContainerPortfolio extends React.Component{
           color = 'white'
           zIndex = '1'
         >
-          <ContactContainer />
+          <PortfolioContainer />
         </ParallaxComponent>
 
         <ParallaxComponent
