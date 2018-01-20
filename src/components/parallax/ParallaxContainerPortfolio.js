@@ -7,10 +7,12 @@ import PortfolioIntroBackground from '../backgroundLayers/PortfolioIntroBackgrou
 import PortfolioIntro from '../backgroundLayers/PortfolioIntro'
 import PortfolioContainer from '../portfolio/PortfolioContainer'
 
+
 class ParallaxContainerPortfolio extends React.Component{
 
   render(){
     return(
+
       <div>
 
         <ParallaxComponent
@@ -43,9 +45,18 @@ class ParallaxContainerPortfolio extends React.Component{
           color = 'black'
           height = '20%'
         >
+          <div style={{
+            position: 'relative',
+            textAlign: 'center',
+            top: '40%',
+            color: 'white'
+          }}>
+            Created with React
+          </div>
         </ParallaxComponent>
 
       </div>
+
     )
   }
 }
