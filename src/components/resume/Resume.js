@@ -1,5 +1,5 @@
 import React from 'react'
-import ResumeFile from '../../images/kyResume.jpg'
+import ResumeFile from '../../images/kyResumeForWebsite.jpg'
 
 
 class Resume extends React.Component{
@@ -8,7 +8,7 @@ class Resume extends React.Component{
       <div style={{
         position: 'absolute',
         left: '20%',
-        top: '10%' 
+        top: '10%'
       }}>
         <img src={ResumeFile} alt='My Resume'/>
       </div>

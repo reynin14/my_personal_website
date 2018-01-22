@@ -7,19 +7,10 @@ class Details extends React.Component{
         position: 'relative',
         left: '5%'
       }}>
-        <div>
-          <div>
-            Location
-          </div>
-          <div>
-            Irvine, California
-          </div>
-        </div>
-        
-        <h3>Details</h3>
-        <p><b>Name:</b><br></br>Kevin Yonzon</p>
-        <p><b>Age:</b><br></br>26</p>
-        <p><b>Location:</b><br></br>Irvine, California</p>
+        <h3>Location</h3>
+        Irvine, California
+        <h3>Age</h3>
+        <p>26</p>
       </div>
     )
   }

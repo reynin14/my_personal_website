@@ -19,7 +19,7 @@ class ParallaxComponent extends React.Component {
       backgroundImage: `url(${this.props.image})`
     }
 
-    this.handleScroll = this.throttle(this.handleScroll.bind(this), 20);
+    this.handleScroll = this.throttle(this.handleScroll.bind(this), 14);
     this.top = this.getTop()
   }
 

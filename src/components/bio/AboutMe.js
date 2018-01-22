@@ -5,8 +5,8 @@ class AboutMe extends React.Component{
     return(
       <div style={{
         position: 'absolute',
-        right: '6%',
-        width: '45%'
+        width: '50%',
+        left: '29%'
       }}>
         <h3>About Me</h3>
         <p>Full stack web developer with a passion for making a positive impact on the world through programming.</p>
