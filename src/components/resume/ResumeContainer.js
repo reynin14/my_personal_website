@@ -1,10 +1,6 @@
 import React from 'react'
 import Resume from './Resume'
 
-import Modal from '../modal/Modal'
-
-
-
 class ResumeContainer extends React.Component{
   state = { isOpen: false };
 
