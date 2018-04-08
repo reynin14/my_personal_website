@@ -2,14 +2,14 @@ import React from 'react'
 
 import ParallaxComponent from './ParallaxComponent'
 import IntroContainer from '../bio/IntroContainer'
-import NameIntro from '../backgroundLayers/NameIntro'
-import NameIntroBackground from '../backgroundLayers/NameIntroBackground'
+import NameIntro from './backgroundLayers/NameIntro'
+import NameIntroBackground from './backgroundLayers/NameIntroBackground'
 
 import Navbar from '../navbar/Navbar'
 
-import ResumeIntroBackground from '../backgroundLayers/ResumeIntroBackground'
-import ResumeIntro from '../backgroundLayers/ResumeIntro'
-import ResumeContainer from '../resume/ResumeContainer'
+import ResumeIntroBackground from './backgroundLayers/ResumeIntroBackground'
+import ResumeIntro from './backgroundLayers/ResumeIntro'
+import Resume from '../resume/Resume'
 
 class ParallaxContainer extends React.Component{
 
@@ -58,14 +58,17 @@ class ParallaxContainer extends React.Component{
         </ParallaxComponent>
 
         <ParallaxComponent
-          top = '300%'
+          top = '400%'
           zIndex = '1'
+          height = '80%'
         >
-          <ResumeContainer />
+          <div>
+            <Resume />
+          </div>
         </ParallaxComponent>
 
         <ParallaxComponent
-          top = '470%'
+          top = '500%'
           color = 'black'
           height = '20%'
         >

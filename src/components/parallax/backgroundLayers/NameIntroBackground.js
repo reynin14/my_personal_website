@@ -1,14 +1,14 @@
 import React from 'react'
-import kyDC from '../../images/kyDC.JPG'
+import kyLeavesActual from '../../../images/kyLeavesActual.JPG'
 
-class PortfolioIntroBackground extends React.Component{
+class NameIntroBackground extends React.Component{
   render(){
     return(
       <div
         style={{
         width: '100%',
         height: '100%',
-        backgroundImage: `url(${kyDC})`,
+        backgroundImage: `url(${kyLeavesActual})`,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: '0% 100%'
@@ -19,4 +19,4 @@ class PortfolioIntroBackground extends React.Component{
   }
 }
 
-export default PortfolioIntroBackground
+export default NameIntroBackground

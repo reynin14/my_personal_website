@@ -1,17 +1,17 @@
 import React from 'react'
-import kyCrossing from '../../images/kyCrossing.JPG'
+import kyDC from '../../../images/kyDC.JPG'
 
-class ContactIntroBackground extends React.Component{
+class PortfolioIntroBackground extends React.Component{
   render(){
     return(
       <div
         style={{
         width: '100%',
         height: '100%',
-        backgroundImage: `url(${kyCrossing})`,
+        backgroundImage: `url(${kyDC})`,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
-        backgroundPosition: '0% 20%'
+        backgroundPosition: '0% 100%'
         }}
       >
       </div>
@@ -19,4 +19,4 @@ class ContactIntroBackground extends React.Component{
   }
 }
 
-export default ContactIntroBackground
+export default PortfolioIntroBackground

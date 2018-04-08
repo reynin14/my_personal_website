@@ -1,6 +1,8 @@
 import React from 'react'
 import Resume from './Resume'
 
+import styles from './styles.css'
+
 class ResumeContainer extends React.Component{
   state = { isOpen: false };
 
@@ -13,15 +15,7 @@ class ResumeContainer extends React.Component{
   render(){
 
     return(
-      <div style={{
-        height: '140%',
-        width: '100%',
-        backgroundColor: 'white',
-        left: '70%',
-        padding: '2%'
-      }}>
         <Resume />
-      </div>
     )
   }
 }

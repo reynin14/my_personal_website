@@ -3,8 +3,8 @@ import ParallaxComponent from './ParallaxComponent'
 
 import Navbar from '../navbar/Navbar'
 
-import ContactIntro from '../backgroundLayers/ContactIntro'
-import ContactIntroBackground from '../backgroundLayers/ContactIntroBackground'
+import ContactIntro from './backgroundLayers/ContactIntro'
+import ContactIntroBackground from './backgroundLayers/ContactIntroBackground'
 
 import ContactContainer from '../contact/ContactContainer'
 

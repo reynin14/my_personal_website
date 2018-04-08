@@ -1,0 +1,10 @@
+:local(.resumeContainer) {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  backgroundColor: 'white';
+  padding: '2%';
+}

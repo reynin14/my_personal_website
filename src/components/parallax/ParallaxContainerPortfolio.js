@@ -3,8 +3,8 @@ import ParallaxComponent from './ParallaxComponent'
 
 import Navbar from '../navbar/Navbar'
 
-import PortfolioIntroBackground from '../backgroundLayers/PortfolioIntroBackground'
-import PortfolioIntro from '../backgroundLayers/PortfolioIntro'
+import PortfolioIntroBackground from './backgroundLayers/PortfolioIntroBackground'
+import PortfolioIntro from './backgroundLayers/PortfolioIntro'
 import PortfolioContainer from '../portfolio/PortfolioContainer'
 
 

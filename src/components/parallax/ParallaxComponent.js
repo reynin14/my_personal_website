@@ -16,7 +16,7 @@ class ParallaxComponent extends React.Component {
       backgroundRepeat: 'no-repeat',
       backgroundPostion: 'center',
       backgroundColor: this.props.color || null,
-      backgroundImage: `url(${this.props.image})`
+      backgroundImage: `url(${this.props.image})`,
     }
 
     this.handleScroll = this.throttle(this.handleScroll.bind(this), 14);

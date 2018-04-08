@@ -1,5 +1,5 @@
 import React from 'react'
-import kyFlatiron from '../../images/kyFlatiron.JPG'
+import kyFlatiron from '../../../images/kyFlatiron.JPG'
 
 class ResumeIntroBackground extends React.Component{
   render(){

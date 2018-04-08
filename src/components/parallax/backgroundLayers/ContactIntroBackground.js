@@ -1,17 +1,17 @@
 import React from 'react'
-import kyLeavesActual from '../../images/kyLeavesActual.JPG'
+import kyCrossing from '../../../images/kyCrossing.JPG'
 
-class NameIntroBackground extends React.Component{
+class ContactIntroBackground extends React.Component{
   render(){
     return(
       <div
         style={{
         width: '100%',
         height: '100%',
-        backgroundImage: `url(${kyLeavesActual})`,
+        backgroundImage: `url(${kyCrossing})`,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
-        backgroundPosition: '0% 100%'
+        backgroundPosition: '0% 20%'
         }}
       >
       </div>
@@ -19,4 +19,4 @@ class NameIntroBackground extends React.Component{
   }
 }
 
-export default NameIntroBackground
+export default ContactIntroBackground
